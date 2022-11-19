@@ -17,7 +17,7 @@ class ViewController: BaseViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        self.title = "Pogo"
+        self.title = "palera1n loader"
         
         let install = UIButton(frame: .zero)
         install.translatesAutoresizingMaskIntoConstraints = false
@@ -39,7 +39,7 @@ class ViewController: BaseViewController {
         version.translatesAutoresizingMaskIntoConstraints = false
         version.textColor = .label
         
-        view.addSubview(install)
+        // view.addSubview(install)
         view.addSubview(tools)
         view.addSubview(statusLabel!)
         view.addSubview(version)
